@@ -1,20 +1,18 @@
-import './App.css'
+// import { useState, useEffect } from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Splash from "./components/SplashPage";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div> */}
-      <h1>Welcome to the new Bellana!</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Splash />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
