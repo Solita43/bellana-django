@@ -7,10 +7,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-
 }
-
-
 
 .top-nav {
   display: flex;
@@ -27,9 +24,10 @@
 }
 
 .logo {
-  object-fit: contain;
+  color: #1D2124;
   max-width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .auth-buttons {
@@ -43,41 +41,36 @@
   justify-content: center;
   height: 75%;
   margin: auto;
-  
-
-  /* border: 3px solid red; */
 }
+
 .collage-container {
   width: 100%;
-  /* flex: 1; */
   display: flex;
   justify-content: center;
-  /* border: 3px solid red; */
 }
 
 .splash-collage {
-  width: 48vmax;
+  max-width: 100%;
+  display: block;
   object-fit: contain;
   animation: transitionIn 1.5s;
 }
 
 .about {
-  color: #1D2124;
+  color: var(--dark-bg);
   animation: transitionIn2 1.5s;
   width: 100%;
-  /* flex: 1; */
-  padding: 2vmax;
-  border: 3px solid red;
+  padding: 4vmax;
 
 }
 
 .about-title {
-  font-size: 5.8vmin;
+  font-size: 7vmin;
+  font-weight: 600;
 }
 .about-p {
   font-size: 1.5rem;
-  padding: .5rem 0;
-  /* width: 50vw; */
+  padding: 1rem 0;
 }
 
 .social-icons {
@@ -85,12 +78,13 @@
   gap: 1rem;
   justify-content: space-around;
   align-items: flex-end;
-  color: white;
+  color: var(--linen);
 }
 
 .fa-linkedin,
 .fa-github {
-  color: white;
+  color: var(--linen);
+
   font-size: 2rem;
 }
 
@@ -98,12 +92,8 @@
   position: absolute;
   bottom: 0;
   padding: 0.5rem 1rem;
-  /* border: 3px solid red; */
 }
 
-.about-links-header {
-  color: white;
-}
 .copyright {
   font-size: 0.8rem;
 }
@@ -142,7 +132,6 @@
   .about {
     height: 20vmax;
     flex: 0;
-    color: whitesmoke;
   }
   .collage-container {
     height: 40vmax;
