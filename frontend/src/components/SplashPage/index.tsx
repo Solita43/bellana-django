@@ -1,6 +1,4 @@
 import splash_collage from "../../assets/collage.webp";
-import logo from "../../assets/brand.png";
-
 import "./Splash.css";
 
 function Splash() {
@@ -8,7 +6,7 @@ function Splash() {
     <div className="splash">
       <div className="top-nav">
         <div className="logo_img">
-          <img src={logo} alt="logo" className="logo" ></img>
+          <img src="src/assets/logo.svg" alt="logo" className="logo"></img>
         </div>
         <ul className="auth-buttons">
           <li>Login</li>
