@@ -17,9 +17,9 @@ function Splash() {
       </div>
       <div className="main-content">
         <div className="about">
-          <h2 className="about-title">
+          <p className="about-title">
             Bellana brings all your tasks, teammates, and tools together.
-          </h2>
+          </p>
           <p className="about-p">
             Make it easy for your team to focus on tasks at hand!
           </p>
