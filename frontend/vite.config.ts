@@ -7,14 +7,17 @@ import svgLoader from "vite-svg-loader";
 export default defineConfig({
   plugins: [
     react(),
-    svgLoader(),
+    svgLoader({
+      defaultImport: "url",
+    }),
     VitePWA({
       registerType: "autoUpdate",
       devOptions: {
         enabled: true,
       },
-      includeAssets: "./public",
       manifest: {
+        name: "Bellana",
+        start_url: "/",
         theme_color: "#CC7E85",
         icons: [
           {
@@ -23,13 +26,12 @@ export default defineConfig({
           },
           {
             sizes: "512x512",
-            src: "./src/assets/icon-512.png",
+            src: "icon-512.png",
           },
           {
-            src: "./src/assets/maskable_icon_x192.png",
+            src: "maskable_icon_x192.png",
             sizes: "192x192",
-            type: "image/png",
-            purpose: "any maskable",
+            purpose: "maskable",
           },
         ],
       },
