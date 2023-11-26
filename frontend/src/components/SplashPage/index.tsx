@@ -8,7 +8,7 @@ function Splash() {
     <div className="splash">
       <div className="top-nav">
         <div className="logo_img">
-          <img src={Logo} alt="logo" className="logo"></img>
+          <img src={Logo} width={460} height={128}alt="Bellana Logo" className="logo"></img>
         </div>
         <ul className="auth-buttons">
           <li>Login</li>
@@ -27,6 +27,8 @@ function Splash() {
         <div className="collage-container">
           <img
             src={splash_collage}
+            width={620}
+            height={492}
             alt="collage"
             className="splash-collage"
           ></img>

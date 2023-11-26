@@ -17,20 +17,23 @@ export default defineConfig({
       },
       manifest: {
         name: "Bellana",
-        start_url: "/",
-        theme_color: "#CC7E85",
+        short_name: "bellana",
+        theme_color: "#F56879",
+        background_color: "#1d2124",
+        id: "/",
         icons: [
           {
-            sizes: "512x512",
+            sizes: "512x408",
             src: "favicon.svg",
           },
           {
             sizes: "512x512",
-            src: "icon-512.png",
+            src: "maskable_icon_x512.png",
           },
           {
             src: "maskable_icon_x192.png",
             sizes: "192x192",
+            type: "image/png",
             purpose: "maskable",
           },
         ],

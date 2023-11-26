@@ -11,13 +11,14 @@
 
 :root {
   --dark-bg: #1D2124;
-  --primary: #aa4465;
+  --primary: #F56879;
   --dash-borders: #010101;
   --light-gray: #9e9fa0;
   --dull-white: #e0e0e1;
   --light-bg: #f5f5f5;
   --linen: #FFEDDF; 
   --old-rose: #CC7E85;
+  --smoke: #f5f5f5;
 
   /* Icon color choices */
   --green: #5da283;
