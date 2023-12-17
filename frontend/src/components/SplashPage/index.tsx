@@ -1,5 +1,5 @@
 import Logo from "../../assets/logo.svg";
-import splash_collage from "../../assets/collage.webp";
+import splash_collage from "../../assets/kanban-method-animate.svg";
 
 import "./Splash.css";
 
@@ -30,7 +30,7 @@ function Splash() {
             width={620}
             height={492}
             alt="collage"
-            className="splash-collage"
+            className="kanbancollage"
           ></img>
         </div>
       </div>
